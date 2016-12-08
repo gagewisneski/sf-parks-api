@@ -1,0 +1,12 @@
+<h1>Parks</h1>
+<br>
+
+<% @parks.each do |park| %>
+  <br>
+  <b><%= park["parkname"] %></b>
+  <br>
+  <%= park["parktype"] %>
+  <br>
+  =======================
+  <br>
+<% end %>
